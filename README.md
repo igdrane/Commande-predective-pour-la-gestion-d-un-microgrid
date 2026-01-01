@@ -17,19 +17,20 @@ L’objectif est de **minimiser le coût de l’énergie échangée avec le rés
 ---
 
 ## Architecture du dépôt
-.
-├── code_matlab/
-│ ├── funobj.m # Fonction objectif (coût réseau + pénalisation contraintes molles)
-│ ├── systeme.m # Modèle batterie + saturation + mise à jour Eb
-│ ├── script_1_cas_base.m # 1) Cas de base (prédictions parfaites)
-│ ├── script_2_changer_donnees.m # 2) Étude avec données réelles vs données prédites
-│ ├── script_3_initialisation.m # 3) Effet du point initial (SQP)
-│ ├── script_4_PSO_vs_SQP.m # 4) Comparaison PSO vs SQP (temps réel / performance)
-│ └── script_5_etude_batterie.m # 5) Étude de la capacité batterie + analyse économique
-│
-└── documentation/
-├── rapport.pdf # Rapport complet (modèles, MPC, résultats, analyses)
-└── fiche_resume.pdf # Fiche synthèse
+  .
+  ├── code_matlab/
+  │   ├── funobj.m                 # Fonction objectif (coût réseau + pénalisation contraintes molles)
+  │   ├── systeme.m                # Modèle batterie + saturation + mise à jour Eb
+  │   ├── script_1_cas_base.m       # 1) Cas de base (prédictions parfaites)
+  │   ├── script_2_changer_donnees.m# 2) Étude avec données réelles vs données prédites
+  │   ├── script_3_initialisation.m # 3) Effet du point initial (SQP)
+  │   ├── script_4_PSO_vs_SQP.m     # 4) Comparaison PSO vs SQP (temps réel / performance)
+  │   └── script_5_etude_batterie.m # 5) Étude de la capacité batterie + analyse économique
+  │
+  └── documentation/
+      ├── rapport.pdf              # Rapport complet (modèles, MPC, résultats, analyses)
+      └── fiche_resume.pdf         # Fiche A4 synthèse (1 page)
+
 
 ---
 
